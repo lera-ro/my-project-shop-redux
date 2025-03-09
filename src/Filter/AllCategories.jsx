@@ -3,7 +3,7 @@ import Filter from "./Filter";
 const AllCategories = () => {
     return(<div className="categories">
         {['decorative', 'care', 'perfume', 'all'].
-        map(category => <Filter category={category} />)}
+        map((category, index) => <Filter category={category} key={index} />)}
     </div>)
 }
 

@@ -23,7 +23,7 @@ const App = () => {
     <div className="header">
       <Link to="/specialties" className="link">specialties</Link>
       <Link to="/contacts" className="link">contacts</Link> 
-      <Link to="/cart" className="link"><img src="https://img.icons8.com/?size=100&id=8386&format=png&color=000000" width="30px" alt="basket" /></Link>
+      <Link to="/cart" className="link"><img src="https://img.icons8.com/?size=100&id=8386&format=png&color=000000" width="30px" alt="cart" /></Link>
       </div>  
     </nav>
 

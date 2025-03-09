@@ -22,7 +22,7 @@ const Cosmetics = () => {
                 if (selectedCategory === 'all') return true;
                 return selectedCategory === cosmetic.category;
             })
-            .map(cosmetic => <Cosmetic cosmetic={cosmetic} />
+            .map(cosmetic => <Cosmetic cosmetic={cosmetic} key={cosmetic.id}/>
             )}  
         </div>
     </div>)

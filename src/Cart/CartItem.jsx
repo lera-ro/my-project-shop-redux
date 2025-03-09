@@ -13,8 +13,7 @@ const CartItem = ({cartItem}) => {
         <p>Price: ${cosmetics.price * cartItem.quantity}</p>
         <span onClick={() => dispatch(removeItemFromCart({cartItemID: cartItem.id}))}>
           <img className="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png"/>  
-        </span>
-         
+        </span>        
     </div>)
 }
 
